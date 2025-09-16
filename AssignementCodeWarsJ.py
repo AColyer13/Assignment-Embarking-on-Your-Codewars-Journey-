@@ -16,5 +16,6 @@ def get_count(sentence):
         if char in vowels:
             count += 1
 
-    return count
+    return "The Count is: " + str(count)
+
 
